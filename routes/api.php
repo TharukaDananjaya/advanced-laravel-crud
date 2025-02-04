@@ -25,5 +25,11 @@ Route::middleware(['auth:sanctum', 'role:User'])->group(function () {
     });
 });
 Route::middleware('auth:sanctum')->group(function () {
-    Route::apiResource('products', ProductController::class);
+    Route::post('product', [ProductController::class, 'store']);
+    Route::get('products', [ProductController::class, 'index']);
+    Route::middleware(['product.owner'])->group(function () {
+        Route::get('product/{product}', [ProductController::class, 'show']);
+        Route::put('product/{product}', [ProductController::class, 'update']);
+        Route::delete('product/{product}', [ProductController::class, 'destroy']);
+    });
 });
