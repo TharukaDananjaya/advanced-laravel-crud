@@ -194,8 +194,8 @@ git push origin main
 ---
 
 ## ✨ Credits
-Developed by [Your Name](https://github.com/your-username)  
-📧 Contact: your-email@example.com
+Developed by [Tharuka Dananjaya](https://github.com/TharukaDananjaya)  
+📧 Contact: 
 
 ---
 
