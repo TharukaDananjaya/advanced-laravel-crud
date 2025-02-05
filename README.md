@@ -31,8 +31,8 @@ This is a fully functional Laravel-based CRUD API that includes:
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/TharukaDananjaya/advanced-laravel-crud.git
+cd advanced-laravel-crud
 ```
 
 ### **2️⃣ Install Dependencies**
