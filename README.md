@@ -9,7 +9,6 @@ This is a fully functional Laravel-based CRUD API that includes:
 ✅ API Documentation with Swagger  
 ✅ Automated Testing (PHPUnit/PestPHP)  
 ✅ Continuous Integration & Deployment (CI/CD)  
-✅ Deployment on a Live Server  
 
 ---
 
